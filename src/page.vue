@@ -9,7 +9,7 @@
               <img class="img1" src="https://avatars.mds.yandex.net/i?id=1be03258781718c450a048eeb82f62abb8c3b150-9106775-images-thumbs&n=13" alt="">
  
 <div>
-    <img  class="img" src="https://w7.pngwing.com/pngs/639/452/png-transparent-computer-icons-avatar-user-profile-people-icon-child-face-heroes.png" alt=""><span >Firdavs_Sher</span></div>
+    <img  class="img" src="https://avatars.mds.yandex.net/i?id=6f8c197f8236dc0c996e079a3819e0db002fba3e-9100078-images-thumbs&n=13" alt=""><span >Firdavs_Sher</span></div>
 
   <i class="fa-regular fa-bell fa-shake fs-3"></i>
   <i class="fas fa-gear fs-3"></i>
@@ -26,7 +26,7 @@
 <style  scoped>
 .img{
     width: 40px;
-    height: 35px;
+    height: 40px;
     border-radius: 50%;
 }
 .nav{
@@ -57,8 +57,9 @@ span{
     color: #fff;
     padding-left: 10px;
     font-family: 'Hind Siliguri', sans-serif;
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-size: 17px;
+    font-weight: 7  00;
 }
 
 .img1{

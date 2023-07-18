@@ -1,31 +1,44 @@
 <template>
-    <div>
-<h2 class="h1">DOCTOR LIST</h2>
+    <div class="div shadow-6">
+ 
 
 <button type="button" class="btn btn-primary">
-    <i class="fas fa-plus"></i>
+    <i class="fas fa-plus" ></i>
     Button</button>
+    <search/>
+    <ism/>
     </div>
+ 
 </template>
 
 <script setup>
-
+import search from  './components/search.vue'
+import ism from './components/isimlar.vue'
 </script>
 
+
 <style  scoped>
+.div{
+    width: 90%;
+    height: 135vh;
+    margin: auto;
+    margin-top: 10vh;
+}
 
-
-.h1{
+.h3{
    
     color:#495057 ;
-    margin-left: 10vh;
+    margin-left: 11vh;
     margin-top: 5vh;
     font-weight: 300;
 }
 button{
     width: 25vh;   
     height: 6vh;
-    margin-left:15vh ;
+    margin-left:2vh ;
     margin-top: 5vh;
+}
+button:hover{
+     background-color: rgb(28, 132, 250);
 }
 </style>
