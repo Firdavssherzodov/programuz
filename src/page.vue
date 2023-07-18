@@ -29,13 +29,11 @@
     height: 35px;
     border-radius: 50%;
 }
-
 .nav{
   width: 100%;
   height: 15vh;
   border: solid;
   background-color: #495057;
-
 }
 .divv{
     width: 50vh;
@@ -61,7 +59,6 @@ span{
     font-family: 'Hind Siliguri', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-size: 17px;
- 
 }
 
 .img1{

@@ -8,12 +8,6 @@
 <h3>
     <i class="fa-regular fa-user"></i>
     Doctor
-    
-</h3>
-<h3>
-    <i class="fa-regular fa-user"></i>
-    Doctor
-    
 </h3>
 <h3>
     <i class="fa-regular fa-user"></i>
@@ -22,7 +16,10 @@
 <h3>
     <i class="fa-regular fa-user"></i>
     Doctor
-     
+</h3>
+<h3>
+    <i class="fa-regular fa-user"></i>
+    Doctor
 </h3>
 <h3>
     <i class="fa-regular fa-user"></i>
@@ -42,8 +39,6 @@
 .kattadiv{
     width: 100%;
     height: 13vh;
- 
-
 }
 .div{
     margin-left: 4vh;
