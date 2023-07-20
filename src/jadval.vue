@@ -20,7 +20,7 @@ import ism from './components/isimlar.vue'
 <style  scoped>
 .div{
     width: 90%;
-    height: 135vh;
+    height: 120vh;
     margin: auto;
     margin-top: 10vh;
 }

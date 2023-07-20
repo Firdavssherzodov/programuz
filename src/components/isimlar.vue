@@ -8,20 +8,20 @@
     <th >Name</th>
     <th>Contact No</th>
     <th>Email</th>
-                    <th>Pending Appointment</th>
-                    <th>Complete Appointment</th>
-                    <th>Option</th>
-                </tr>
-            </thead>
+    <th>Pending Appointment</th>
+    <th>Complete Appointment</th>
+    <th>Option</th>
+ </tr>
+</thead>
 <tbody v-for="srt in srt1">
     <tr>
         <td>{{ srt.id }}</td>
         <td>{{ srt.title }}</td>
-        <td>{{ srt.name }}</td>
-        <td>1234567890</td>
-        <td>neha@abc.com</td>
-        <td>0</td>
-        <td>0</td>
+        <td>{{ srt.firstname }}</td>
+        <td>{{ srt.contact_number }}</td>
+        <td>{{ srt.email}}</td>
+        <td>{{ srt.experience }}</td>
+        <td>{{ srt.slots_time }}</td>
         <td  >
             <button type="button" class="btn btn-primary  btn-floating  m-auto">
   <i class="fas fa-magic"></i>
@@ -41,18 +41,24 @@
 
 <script setup>
 import and2 from './and2.vue'
-// import axios from 'axios'
+import axios from 'axios'
 import { ref } from 'vue';
 
 
+let srt1 = ref([])
+axios.get('http://192.168.137.98:1111/api/doctor')
+    .then(resp => {
+      srt1.value = resp.data.data
+    
+      console.log(resp.data.data);
+    })
+ 
 
 
 
 
 
-
-
-
+ 
 </script>
 
 <style scoped>
@@ -65,7 +71,7 @@ table, th, td {
 }
 table td {
     padding: 7.1px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
  
 </style>
