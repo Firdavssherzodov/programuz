@@ -8,11 +8,11 @@
     <th >Name</th>
     <th>Contact No</th>
     <th>Email</th>
-    <th>Pending Appointment</th>
-    <th>Complete Appointment</th>
-    <th>Option</th>
- </tr>
-</thead>
+                    <th>Pending Appointment</th>
+                    <th>Complete Appointment</th>
+                    <th>Option</th>
+                </tr>
+            </thead>
 <tbody v-for="srt in srt1">
     <tr>
         <td>{{ srt.id }}</td>
@@ -44,86 +44,15 @@ import and2 from './and2.vue'
 // import axios from 'axios'
 import { ref } from 'vue';
 
-let srt1 = ref([
-    {
-id:1,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:2,
-title:"Firdavs",
-name:"Firdavs",
 
-    },
-    {
-id:3,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:4,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:5,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:6,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:7,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:8,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:9,
-title:"neha",
-name:"Firdavs",
 
-    },
-    {
-id:10,
-title:"neha",
-name:"Firdavs",
-
-    },
-    {
-id:11,
-title:"neha",
-name:"Firdavs",
-
-    },
-    {
-id:12,
-title:"neha",
-name:"Firdavs",
-
-    },
-    {
-id:13,
-title:"neha",
-name:"Firdavs",
-
-    }
-])
 </script>
 
 <style scoped>
